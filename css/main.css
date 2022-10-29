@@ -292,3 +292,32 @@ h3 {
     border-radius: 17px;
     max-width: 100%;
 }
+
+/* Блок история */
+
+.history {
+    margin: 150px 0;
+    background-color: #245852;
+    padding: 150px 0;
+    overflow: hidden;
+    color: #fff;
+}
+
+.history__left, .history__right {
+    width: 50%;
+    float: left;
+}
+
+.history__right img {
+    max-width: 100%;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.history p {
+    margin-top: 24px;
+}
+
+.history .button {
+    margin-top: 50px;
+}
