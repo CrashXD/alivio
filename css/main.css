@@ -12,6 +12,10 @@ body {
     color: #292929;
 }
 
+p {
+    line-height: 150%;
+}
+
 .wrapper {
     width: 1370px;
     margin: 0 auto;
@@ -216,4 +220,75 @@ h3 {
 
 .first__content .button {
     margin-top: 60px;
+}
+
+/* Текстовый блок */
+
+.works {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+
+.works__left, .works__right {
+    width: 50%;
+    float: left;
+}
+
+.works__left {
+    padding-right: 52px;
+}
+
+.works__left h2 {
+    color: #01996D;
+}
+
+.works__subtitle {
+    margin-bottom: 4px;
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.works__right p {
+    margin-top: 40px;
+}
+
+/* Карточки */
+
+.cards {
+    overflow: hidden;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.card {
+    width: 390px;
+    float: left;
+    margin-right: 100px;
+}
+
+.card:last-of-type {
+    margin-right: 0;
+}
+
+.card__number {
+    font-family: 'Roboto Slab', serif;
+    font-size: 144px;
+    color: rgba(1, 153, 109, 0.2);
+}
+
+.card h3 {
+    margin-top: -22px;
+}
+
+.card p {
+    margin-top: 10px;
+    line-height: 150%;
+}
+
+.card img {
+    margin-top: 40px;
+    border-radius: 17px;
+    max-width: 100%;
 }
