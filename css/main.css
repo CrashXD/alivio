@@ -321,3 +321,44 @@ h3 {
 .history .button {
     margin-top: 50px;
 }
+
+/** О себе */
+
+.about {
+    margin: 150px 0;
+    overflow: hidden;
+}
+
+.about__left, .about__right {
+    width: 50%;
+    float: left;
+}
+
+.about__left img {
+    max-width: 100%;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.about__subtitle {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 4px;
+}
+
+.about h2 {
+    color: #01996D;
+}
+
+.about__right {
+    padding-left: 150px;
+}
+
+.about__right p {
+    margin-top: 24px;
+}
+
+.about .button {
+    margin-top: 60px;
+}
